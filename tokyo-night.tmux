@@ -17,12 +17,12 @@ tmux set -g status-right-length 150
 
 RESET="#[fg=${THEME[foreground]},bg=${THEME[background]},nobold,noitalics,nounderscore,nodim]"
 # Highlight colors
-tmux set -g mode-style "fg=${THEME[bgreen]},bg=${THEME[bblack]}"
+tmux set -g mode-style "fg=${THEME[bgreen]},bg=${THEME[midnight-dark]}"
 
 tmux set -g message-style "bg=${THEME[blue]},fg=${THEME[background]}"
 tmux set -g message-command-style "fg=${THEME[white]},bg=${THEME[black]}"
 
-tmux set -g pane-border-style "fg=${THEME[bblack]}"
+tmux set -g pane-border-style "fg=${THEME[midnight-dark]}"
 tmux set -g pane-active-border-style "fg=${THEME[blue]}"
 tmux set -g pane-border-status off
 

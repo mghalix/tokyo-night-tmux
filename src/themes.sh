@@ -88,15 +88,19 @@ THEME['ghmagenta']="#A371F7"
 THEME['ghred']="#d73a4a"
 THEME['ghyellow']="#d29922"
 
-THEME['base']="#191724"
-THEME['surface']='#1f1d2e'
-THEME['overlay']='#26233a'
+# THEME['base']='#191724'
+# THEME['surface']='#1f1d2e'
+# THEME['overlay']='#26233a'
+
+THEME['base']='#0b0a10'
+THEME['surface']=${THEME[base]}
+THEME['overlay']=${THEME[base]}
 
 THEME['muted']='#6e6a86'
 THEME['subtle']='#908caa'
 THEME['text']='#e0def4'
 
-THEME['gold']="#f6c177"
+THEME['gold']='#f6c177'
 THEME['rose']='#ea9a97'
 THEME['pine']='#3e8fb0'
 THEME['iris']='#c4a7e7'

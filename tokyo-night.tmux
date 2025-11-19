@@ -19,7 +19,7 @@ RESET="#[fg=${THEME[foreground]},bg=${THEME[background]},nobold,noitalics,nounde
 # Highlight colors
 tmux set -g mode-style "fg=${THEME[rose]},bg=${THEME[base]}"
 
-tmux set -g message-style "bg=${THEME[overlay]},fg=${THEME[love]}"
+tmux set -g message-style "bg=${THEME[overlay]},fg=${THEME[iris]}"
 tmux set -g message-command-style "fg=${THEME[white]},bg=${THEME[black]}"
 
 tmux set -g pane-border-style "fg=${THEME[base]}"
